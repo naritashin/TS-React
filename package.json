@@ -1,0 +1,48 @@
+{
+  "name": "ts-react",
+  "description": "",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build src && next export src -o out",
+    "dev": "next src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naritashin/TS-React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naritashin/TS-React/issues"
+  },
+  "homepage": "https://github.com/naritashin/TS-React#readme",
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "next": "^9.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/next": "^8.0.6",
+    "@types/react": "^16.9.6",
+    "@types/react-dom": "^16.9.2",
+    "@types/styled-components": "^4.1.19",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4"
+  }
+}
