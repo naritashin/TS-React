@@ -1,14 +1,14 @@
 {
-  "name": "word-chain-game-for-mobile",
+  "name": "word_chain_game_for_mobile",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "natari <triplfjump1417@gmail.com>",
-  "homepage": "https://github.com/naritashin/TS-React/tree/master/packages/word-chain-game-for-mobile#readme",
+  "homepage": "https://github.com/naritashin/TS-React/tree/master/packages/word_chain_game_for_mobile#readme",
   "license": "ISC",
-  "main": "lib/word-chain-game-for-mobile.js",
+  "main": "lib/main.dart",
   "directories": {
     "lib": "lib",
-    "test": "__tests__"
+    "test": "test"
   },
   "files": [
     "lib"
@@ -18,6 +18,8 @@
     "url": "git+https://github.com/naritashin/TS-React.git"
   },
   "scripts": {
+    "build": "next build src && next export src -o out",
+    "dev": "next src",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
